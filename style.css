@@ -1,0 +1,149 @@
+
+
+@font-face{
+    font-family: 'WerfProFont';
+    src: url(font.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.setka:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(setka.png);
+    background-size: 100px 100px;
+    z-index: -999;
+}
+
+.darker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -998;
+}
+
+.sidebar{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background-color:black;
+    border-right: 1px solid white;
+    opacity: 0.7;
+    z-index: -997;
+}
+
+.sidebar p{
+    font-family: 'WerfProFont';
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 32%;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
+.sidebar a{
+    font-family: 'WerfProFont';
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.sidebar h5{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.mainwindow{
+    position: fixed;
+    top: 50px;
+    left: 250px;
+    bottom: 50px;
+}
+
+.mainwindow img{
+    border-radius: 50%;
+    width: 300px;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    bottom: 50px;
+    padding: 10px;
+}
+
+.mainwindow .words{
+    margin-left:  28%;
+    margin-right: 22%;
+    margin-top: 370px;
+    text-align: center;
+    font-family: 'WerfProFont';
+    font-size: 25px;
+    color: white;
+}
+
+.mainwindow p{
+    margin-bottom: 10px;
+}
+
+.mainwindow a{
+    font-family: 'WerfProFont';
+    font-size: 25px;
+    color: darkviolet;
+}
+
+.mainwindow h5{
+    font-size: 25px;
+    color: red;
+}
+
+.mainwindow h1{
+    margin-left: 50px;
+    margin-top: 35px;
+    text-align: left;
+    font-family: 'WerfProFont';
+    font-size: 25px;
+    color: white;
+}
+
+.mainwindow words2{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mainwindow h2{
+    position: relative;
+    top: 500px;
+    text-align: center;
+    font-family: 'WerfProFont';
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
